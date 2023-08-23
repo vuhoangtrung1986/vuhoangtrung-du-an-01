@@ -637,7 +637,12 @@ a {
 .footer .social-link {
     width: 29px;
     height: 29px;
+    border-radius: 3px;
 }    
+
+.footer .social-link:hover {
+    background: #ebebeb;
+}
 
 .footer .bottom-row {
     display: flex;
