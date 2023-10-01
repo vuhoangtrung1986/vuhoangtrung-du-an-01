@@ -69,6 +69,9 @@ a {
     position: relative;
     background: #e6f0ff;
     height: calc(100vh - 90px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .navbar {
@@ -110,15 +113,12 @@ a {
     border-radius: 8px;
 }
 
-.hero {
-    padding-top: 130px;
-}
 
-.hero .info {
+.hero-wrap .info {
     width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 1.5;
@@ -126,7 +126,7 @@ a {
     color: #687690;
 }
 
-.hero .title {
+.hero-wrap .title {
     margin-top: 8px;
     font-weight: 700;
     font-size: 6.4rem;
@@ -134,7 +134,7 @@ a {
     color: #000336;
 }
 
-.hero .desc {
+.hero-wrap .desc {
     margin-top: 30px;
     font-weight: 400;
     font-size: 1.8rem;
@@ -284,7 +284,7 @@ a {
     min-width: 170px;
 }
 
-/****** featured ******/
+/*********** featured ************/
 .featured {
     background: #f5fafe;
     padding: 110px 0;
@@ -386,7 +386,7 @@ a {
     color: #4d4d52;
 }
 
-/********** stats ********/
+/**************** stats **************/
 .stats {
     margin: 75px 0 51px 0;
     padding: 50px 0 52px 0;
@@ -555,7 +555,7 @@ a {
     color: #7b8087;
 }
 
-/******** subscription *******/
+/**************** subscription ***************/
 .subscription {
     margin-top: 90px;
 }
@@ -603,7 +603,7 @@ a {
     right: 221px;
 }
 
-/******** footer ********/
+/**************** footer ****************/
 .footer {
     margin-top: 55px;
     padding: 50px 0 58px;
